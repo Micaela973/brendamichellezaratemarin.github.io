@@ -1,0 +1,344 @@
+<html>
+<head>
+    <title> TABLAS </title>
+    <style type="text/css">
+        *{
+          padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        header, nav, main, footer {
+            width: 100%;
+            padding: 4+0px;
+            background-color: saddlebrown;
+        }
+        header{
+            height: 100px;
+            background-color: burlywood;
+            color: rosybrown;
+        }
+        nav {
+            height: 60px;
+            background-color: saddlebrown;
+        }
+        main{
+            height: auto;
+            background-color: bisque;
+        }
+        footer {
+            height: 60px;
+            background-color: saddlebrown;
+        }
+        section{
+            width: 70%;
+            height: auto;
+            background-color: bisque;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            color: saddlebrown;
+            padding: 30px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        header, footer{
+            text-align: center;
+                
+        }
+        nav ul {
+            text-align: center;
+        }
+        nav ul li {
+         width: 10%;
+             background-color: sandybrown;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            list-style-type: none;
+                padding: 10px;
+            display: inline-block;
+            
+        }
+        nav ul li a {
+            text-decoration: none;
+        }
+        p {
+            margin-bottom: 30px;  
+        }
+        table{
+            background-color: skyblue;
+        }
+        #tab_buap{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-spacing: 10px;
+            border-collapse: collapse;
+        }
+        #tab_buap th{
+            background-color: cornflowerblue;
+            color: aliceblue;
+            height: 50px;
+            
+        }
+        #tab_buap td{
+            background-color: aliceblue;
+            color: darkslateblue;
+            height: 30px;
+            padding: 10px;
+        }
+        #tab_buap th, #tab_buap td{
+            border-width: 3px;
+            border-color:lightsteelblue;
+            border-style: solid;
+        }    
+        #tab_libros{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            
+        }
+        #tab_libros {
+            height: 50px;
+            background-color: saddlebrown;
+            color: bisque;
+        }
+        #tab_libros tbody tr:nth-child(even){
+            background-color: cadetblue;
+            color: aliceblue;
+        
+        }
+        #tab_libros tbody tr: nth-child(odd){
+            background-color: firebrick;
+                color: gainsboro
+        }
+        #tab_libros tfoot tr{
+            background-color: brown;
+            color: beige;
+        }
+        #tab_libros td{
+            height: 30px;
+            padding: 20px;
+        }
+    </style>
+    </head>
+    <body>
+    <header> 
+        <h1>TABLAS</h1>
+        </header>
+        <nav>
+        <ul>
+            <li><a href="formatosTXT.html">Formatos</a></li>
+            <li><a href="listas.html">Listas</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="videos">Videos</a></li>
+            <li><a href="formularios">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section>
+            <h2>Tabla Simple</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat et neque a mattis. Cras non consectetur velit. Donec fringilla dui sed mi laoreet tincidunt. Mauris sit amet leo aliquam nisl tincidunt viverra. Cras vel nisi tincidunt, dignissim dui vel, finibus libero. Nullam et dui tellus. Maecenas eros mi, semper quis dui sit amet, auctor pellentesque enim. Aenean egestas lectus sapien, non feugiat metus fringilla consectetur. Sed ac lobortis neque. Sed interdum diam massa, quis dictum urna tempor a.</p>
+            <table id="tab_buap" border="1">
+            <thead>
+                <tr>
+                <th>Matríula</th>
+                <th>Nombre</th>
+                <th>Facultad</th>
+                <th>Celular</th>
+                <th>Email</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>201615778</td>
+                    <td>Maria José Rojas Perez</td>
+                    <td>Cotaduría</td>
+                    <td>221569863</td>
+                    <td>mary.rojas@gmail.com</td>
+                </tr>
+                     <tr>
+                    <td>2024889318</td>
+                    <td>Eduardo Meneses Diaz</td>
+                    <td>Derecho</td>
+                    <td>2223651999</td>
+                    <td>lalo.md24@hotmail.com</td>
+                </tr>
+                 <tr>
+                    <td>2022649731</td>
+                    <td>Sara Dominguez Juarez</td>
+                    <td>Arquitectura</td>
+                    <td>2228691455</td>
+                    <td>saradj@live.es</td>
+                </tr>
+                <tr>
+                    <td>2020568947</td>
+                    <td>Pedro Gutierrez Mendez</td>
+                    <td>Química</td>
+                    <td>2224561733</td>
+                    <td>peter_mendez99@outlook.es</td>
+                </tr>
+                 <tr>
+                    <td>2018563248</td>
+                    <td>Alfredo Solis Hernandez</td>
+                    <td>Biología</td>
+                    <td>2223631555</td>
+                    <td>fredo23@hotmail.com</td>
+                 </tr>
+                 <tr>
+                    <td>2019632145</td>
+                    <td>Fernanda Benitez Camacho</td>
+                    <td>Arquitectua</td>
+                    <td>222456958</td>
+                    <td>fer_benitez@outlook.es</td>
+                 </tr>
+                </tbody>
+            </table>
+            </section>
+            <section>
+            <h2>Tabla</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat et neque a mattis. Cras non consectetur velit. Donec fringilla dui sed mi laoreet tincidunt. Mauris sit amet leo aliquam nisl tincidunt viverra. Cras vel nisi tincidunt, dignissim dui vel, finibus libero. Nullam et dui tellus. Maecenas eros mi, semper quis dui sit amet, auctor pellentesque enim. Aenean egestas lectus sapien, non feugiat metus fringilla consectetur. Sed ac lobortis neque. Sed interdum diam massa, quis dictum urna tempor a.</p>
+                 <table id="tab_libros" border="1">
+            <thead>
+                <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Editorial</th>
+                <th>Año</th>
+                <th>Precio</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Hija de Humo y Hueso</td>
+                    <td>Laini Taylor</td>
+                    <td>Alfaguara</td>
+                    <td>2011</td>
+                    <td>$350</td>
+                </tr>
+                     <tr>
+                    <td>Dias de Sagre y Resplandor</td>
+                    <td>Laini Taylor</td>
+                    <td>Alfaguara</td>
+                    <td>2012</td>
+                    <td>$350</td>
+                </tr>
+                 <tr>
+                    <td>Sueños de Dioses y Mounstros</td>
+                    <td>Laini Tailor</td>
+                    <td>Alfagura</td>
+                    <td>2013</td>
+                    <td>$450</td>
+                </tr>
+                <tr>
+                    <td>El Castillo Ambulante</td>
+                    <td>Diana Wynne Jones</td>
+                    <td>Nocturna Ediciones</td>
+                    <td>1986</td>
+                    <td>$290</td>
+                </tr>
+                 <tr>
+                    <td>Veronika decide morir</td>
+                    <td>Paulo Cohelo</td>
+                    <td>Biología</td>
+                    <td>1998</td>
+                    <td></td>
+                 </tr>
+                 <tr>
+                    <td>2019632145</td>
+                    <td>Fernanda Benitez Camacho</td>
+                    <td>Arquitectua</td>
+                    <td></td>
+                    <td></td>
+                 </tr>
+                </tbody>
+                     <tfoot>
+                     <tr>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td>Total</td>
+                         <td>1525.00</td>
+                         </tr>
+                     </tfoot>
+            </table>
+            </section>
+            <section>
+            <h2>Tablas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat et neque a mattis. Cras non consectetur velit. Donec fringilla dui sed mi laoreet tincidunt. Mauris sit amet leo aliquam nisl tincidunt viverra. Cras vel nisi tincidunt, dignissim dui vel, finibus libero. Nullam et dui tellus. Maecenas eros mi, semper quis dui sit amet, auctor pellentesque enim. Aenean egestas lectus sapien, non feugiat metus fringilla consectetur. Sed ac lobortis neque. Sed interdum diam massa, quis dictum urna tempor a.</p>
+                 <table id="tab_libros" border="1">
+            <thead>
+                <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Editorial</th>
+                <th>Año</th>
+                <th>Precio</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Hija de Humo y Hueso</td>
+                    <td>Laini Taylor</td>
+                    <td>Alfaguara</td>
+                    <td>2011</td>
+                    <td>$350</td>
+                </tr>
+                     <tr>
+                    <td>Dias de Sagre y Resplandor</td>
+                    <td>Laini Taylor</td>
+                    <td>Alfaguara</td>
+                    <td>2012</td>
+                    <td>$350</td>
+                </tr>
+                 <tr>
+                    <td>Sueños de Dioses y Mounstros</td>
+                    <td>Laini Tailor</td>
+                    <td>Alfagura</td>
+                    <td>2013</td>
+                    <td>$450</td>
+                </tr>
+                <tr>
+                    <td>El Castillo Ambulante</td>
+                    <td>Diana Wynne Jones</td>
+                    <td>Nocturna Ediciones</td>
+                    <td>1986</td>
+                    <td>$290</td>
+                </tr>
+                 <tr>
+                    <td>Veronika decide morir</td>
+                    <td>Paulo Cohelo</td>
+                    <td>Biología</td>
+                    <td>1998</td>
+                    <td></td>
+                 </tr>
+                 <tr>
+                    <td>2019632145</td>
+                    <td>Fernanda Benitez Camacho</td>
+                    <td>Arquitectua</td>
+                    <td></td>
+                    <td></td>
+                 </tr>
+                </tbody>
+                     <tfoot>
+                     <tr>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                         <td>Total</td>
+                         <td>1525.00</td>
+                         </tr>
+                     </tfoot>
+            </table>
+            </section>
+            </main>
+        <footer>
+        <h6>Elaborado por:Brenda Michelle Zarate Marin</h6>
+        </footer>
+    </body>
+</html>
